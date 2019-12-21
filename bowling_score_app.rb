@@ -11,8 +11,6 @@ module Bowler
         _calculate_from_frame(0)
       end
   
-      private
-  
       def _calculate_from_frame(index)
         @current_frame += 1
         return 0 if _out_of_range?(index)
